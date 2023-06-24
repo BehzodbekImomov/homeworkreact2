@@ -1,0 +1,51 @@
+
+.hero{
+  margin: 0 auto;
+   
+.hero_title {
+  width: 580px;
+  padding-top: 162px;
+ position: absolute;
+bottom: 200px;
+  span {
+    color: #2c2d2e;
+padding-bottom: 16px;
+    font-size: 13px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    line-height: 13px;
+  }
+  h1 {
+    color: #2C2D2E;
+    font-size: 32px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    line-height: 40px;
+    padding-bottom: 16px;
+  }
+  p {
+    padding-bottom: 16px;
+    color: #2c2d2e;
+    font-size: 15px;
+    font-family: "Montserrat";
+    line-height: 20px;
+  }
+  button {
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Montserrat";
+    line-height: 20px;
+    color: #ffff;
+    border-radius: 4px;
+    background: #ef7c00;
+    border: 1px solid #ef7c00;
+  }
+}
+}
+
+.btn{
+    max-width: 1330px;
+    margin: 0 auto;
+   
+}

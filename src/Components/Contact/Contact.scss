@@ -1,0 +1,43 @@
+.contact {
+  background: url("../../../public/contactBg.svg");
+  background-position: left 50px top 100px;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+  margin: 0 auto ;
+  width: 1134px;
+  height: 376px;
+  .title {
+    text-align: left;
+   padding-top: 64px;
+
+  }
+  p {
+    padding: 0;
+    color: #2c2d2e;
+    font-size: 15px;
+    font-family: "Montserrat";
+    line-height: 20px;
+    width: 420px;
+  }
+  textarea {
+    border-radius: 4px;
+    border: 1px solid var(--borders-color-border, rgba(0, 16, 61, 0.12));
+    background: var(--main-color-bg, #fff);
+    margin-top: 12px;
+    padding: 10px 12px 50px;
+    color: var(--text-color-text-secondary, #919399);
+    font-size: 15px;
+    font-family: "Montserrat";
+    line-height: 20px;
+    display: block;
+    margin-bottom: 12px;
+  }
+}
+
+.form {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+
+  padding-top: 36px;
+}

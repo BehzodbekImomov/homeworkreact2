@@ -1,0 +1,58 @@
+header{
+  box-shadow: 0px 4px 32px 0px rgba(0, 16, 61, 0.16);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 65px;
+  padding-bottom: 12px;
+
+
+
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    li {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+
+      a {
+        font-size: 16px;
+        font-family: "Montserrat";
+        font-weight: 500;
+        line-height: 24px;
+        color: #2c2d2e;
+        &:hover {
+          color: #ef7c00 !important;
+          cursor: pointer;
+          transition: all 0.5s ease-in-out;
+        }
+      }
+      .line {
+        width: 1px;
+        height: 28px;
+        background: rgba(0, 16, 61, 0.12);
+      }
+    }
+  }
+  button {
+    padding: 5px 10px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Montserrat";
+    line-height: 20px;
+    border: 1px solid #ef7c00;
+    border-radius: 4px;
+    background: #ef7c00;
+    &:hover {
+      background-color: #ffff;
+      border: 1px solid #777a7c;
+      color: #ef7c00;
+      transition: all 0.5s ease-in-out;
+    }
+  }
+}
